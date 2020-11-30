@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/ic_main_menu"
+            android:title="@string/menu_main" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/ic_services_menu"
+            android:title="@string/menu_services" />
+        <item
+            android:id="@+id/nav_customers"
+            android:icon="@drawable/ic_customers_menu"
+            android:title="@string/menu_customers" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_contact_menu"
+                android:title="@string/menu_contact" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_menu"
+                android:title="@string/menu_about" />
+        </menu>
+    </item>
+
+</menu>
